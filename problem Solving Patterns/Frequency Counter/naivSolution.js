@@ -13,6 +13,7 @@ function same(arr1, arr2){
     console.log("Sorted 2: ",arr2)
 
     let len = arr1.length - 1;
+    console.log(len)
     for (let i = 0; i <= len; i++){
         let square = arr1[i] * arr1[i];
         if (square !== arr2[i]){
